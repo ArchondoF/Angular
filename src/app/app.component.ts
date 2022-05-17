@@ -19,7 +19,7 @@ export class AppComponent {
   cuadroApellido : string = "";
   cuadroCargo : string = "";
   cuadroSalario : number = 0;
-  cuadroSalarsio : number = 0;
+
   agregarEmpleado(){
     let nuevoEmpleado = new Empleado(this.cuadroNombre, this.cuadroApellido, this.cuadroCargo , this.cuadroSalario)
     this.empleados.push(nuevoEmpleado);
